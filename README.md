@@ -25,8 +25,6 @@ While vision-and-language models have grown exponentially in capabilities, the e
 
 The approach ensures that BLIP-2 produces initial visual descriptions of content for video frames, which are then refined by a custom summarization model to obtain a well-structured summary that captures the essential elements of the video. The solutions implemented address challenges such as large-scale video processing, memory constraints, and the readability of text output. Techniques include memory-efficient processing, model fine-tuning, and post-processing of the resultant text for high-quality output. This system is scalable and adaptive, leveraging advanced data handling to transform video data into a usable format through iterative training methods.
 
-**Index Terms:** Video summarization, Transformer models, BLIP-2, Content description, Video data processing, Model fine-tuning, Memory optimization, Scalable solution, Data management, Iterative training.
-
 ## Model Architecture
 
 ![image](https://github.com/user-attachments/assets/06bbaf36-02cb-41b2-9796-0174ea02e2f3)
