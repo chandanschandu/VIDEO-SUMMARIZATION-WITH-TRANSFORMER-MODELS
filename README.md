@@ -1,5 +1,6 @@
+Here’s the updated GitHub README file incorporating your specified changes, including the video and image links, as well as adjusting the file directory reference:
 
-
+```markdown
 # VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS
 
 ## Driven Video Summarization with Transformer Model
@@ -69,10 +70,10 @@ To load the models, create a script named `load_model.py` and use the following 
 import os
 
 # Change directory to where your preprocessing script is located
-%cd /kaggle/input/videoprocessor
+os.chdir('path/to/your/local/directory')
 
 # Install required packages
-!pip install -r /kaggle/input/videoprocessor/requirements.txt
+!pip install -r requirements.txt
 
 # Run the preprocessing script
 !python load_model.py
@@ -81,7 +82,7 @@ import os
 You also need to run your summarization model to get summaries:
 
 ```bash
-!python https://github.com/chandanschandu/VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS/blob/main/summarization%20model.py
+!python summarization_model.py
 ```
 
 This code will load both the custom summarization model and the preprocessing model, allowing you to process videos for summarization.
@@ -90,11 +91,11 @@ This code will load both the custom summarization model and the preprocessing mo
 
 Here are some results obtained from the model, including a snapshot of the video summarization output:
 
-![Snapshot of Video Summarization Output](<URL_TO_YOUR_IMAGE>)  <!-- Replace with the actual URL of your image -->
+![Snapshot of Video Summarization Output](https://github.com/chandanschandu/VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS/blob/main/video/Screenshot%202024-10-27%20185614.png)
 
-[Watch the Summarization Video](<URL_TO_YOUR_VIDEO>)  <!-- Replace with the actual URL of your video -->
+[Watch the Summarization Video](https://github.com/chandanschandu/VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS/blob/main/video/1%20(4).mp4)
 ```
 
 ### Notes:
-- Remember to replace `<URL_TO_YOUR_IMAGE>` and `<URL_TO_YOUR_VIDEO>` with the actual URLs for your snapshot image and video.
-- Make sure that all code blocks and scripts mentioned are present in your repository to facilitate users following the instructions smoothly.
+- Ensure that the `path/to/your/local/directory` in the `os.chdir` command is updated to reflect the correct path where your files are stored.
+- All code blocks and scripts should be present in your repository to facilitate easy usage for others.
