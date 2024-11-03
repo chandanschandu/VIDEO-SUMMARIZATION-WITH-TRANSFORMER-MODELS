@@ -1,6 +1,4 @@
-Here’s the updated GitHub README file incorporating your specified changes, including the video and image links, as well as adjusting the file directory reference:
 
-```markdown
 # VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS
 
 ## Driven Video Summarization with Transformer Model
