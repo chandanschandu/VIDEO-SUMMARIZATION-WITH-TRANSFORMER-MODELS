@@ -91,7 +91,7 @@ Here are some results obtained from the model, including a snapshot of the video
 
 ![Snapshot of Video Summarization Output](https://github.com/chandanschandu/VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS/blob/main/video/Screenshot%202024-10-27%20185614.png)
 
-[Watch the Summarization Video](https://github.com/chandanschandu/VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS/blob/main/video/1%20(4).mp4)
+[Watch the Video](https://github.com/chandanschandu/VIDEO-SUMMARIZATION-WITH-TRANSFORMER-MODELS/blob/main/video/1%20(4).mp4)
 ```
 
 ### Notes:
